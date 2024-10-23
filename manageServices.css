@@ -1,0 +1,223 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+
+
+/* Header styles */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #00293c;
+    color: white;
+}
+
+/* Home Button (left) with lighter background box */
+.header-left .home-button {
+    font-size: 18px;
+    color: #00293c; /* Dark Blue text */
+    text-decoration: none;
+    padding: 10px 15px;
+    background-color: #cfd8e6; /* Light Gray/Blue box */
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.header-left .home-button i {
+    margin-right: 8px; /* Spacing for the icon */
+}
+
+.header-left .home-button:hover {
+    background-color: #c89d2f; /* Mustard Yellow on hover */
+    color: #00293c; /* Dark Blue text on hover */
+}
+
+/* Center Dashboard Title */
+.header-center h1 {
+    font-size: 28px;
+    text-align: center;
+    color: white;
+}
+
+/* Logout Button (right) with lighter background box */
+.header-right .logout-button {
+    font-size: 18px;
+    color: #00293c; /* Dark Blue text */
+    text-decoration: none;
+    padding: 10px 15px;
+    background-color: #cfd8e6; /* Light Gray/Blue box */
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.header-right .logout-button i {
+    margin-right: 8px; /* Spacing for the icon */
+}
+
+.header-right .logout-button:hover {
+    background-color: #ff4b5c; /* Red on hover */
+    color: white;
+}
+
+
+/* Manage Services Section */
+.manage-services {
+    padding: 20px;
+    background-color: #fff;
+    margin-top: 20px;
+}
+
+/* Add New Service Button */
+.add-service {
+    text-align: right;
+    margin-bottom: 20px;
+}
+
+.add-service-button {
+    background-color: #c89d2f; /* Mustard Yellow */
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.add-service-button:hover {
+    background-color: #b58628; /* Slightly darker yellow on hover */
+    transform: scale(1.05); /* Slight zoom on hover */
+}
+
+/* Service List Layout */
+.service-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-around;
+}
+
+/* Service Card */
+.service-card {
+    background-color: #cfd8e6; /* Light Gray/Blue background */
+    padding: 20px;
+    width: 30%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Hover effect for service cards */
+.service-card:hover {
+    transform: scale(1.05); /* Slight zoom on hover */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15); /* Stronger shadow on hover */
+}
+
+.service-card h3 {
+    font-size: 20px;
+    color: #00293c; /* Dark Blue */
+}
+
+.service-card p {
+    font-size: 16px;
+    color: #555;
+    margin: 5px 0;
+}
+
+/* Service Actions (Edit, Delete) */
+.service-actions {
+    margin-top: 15px;
+}
+
+.edit-button, .delete-button {
+    background-color: #00293c; /* Dark Blue */
+    color: #fff;
+    border: none;
+    padding: 8px 12px;
+    margin-right: 10px;
+    font-size: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+/* Edit Button Hover */
+.edit-button:hover {
+    background-color: #004b70; /* Slightly lighter blue on hover */
+    transform: scale(1.05);
+}
+
+/* Delete Button Hover */
+.delete-button:hover {
+    background-color: #ff4b5c; /* Red for delete button */
+    transform: scale(1.05);
+}
+
+
+footer {
+    background-color: #00293c; /* Dark Blue from your palette */
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    border-top: 5px solid #c89d2f; /* Mustard Yellow accent */
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer-content p {
+    margin: 10px 0;
+    font-size: 16px;
+}
+
+.footer-links {
+    list-style-type: none;
+    padding: 0;
+    margin: 15px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-links li {
+    margin: 0 15px;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+    transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+    color: #c89d2f; /* Mustard Yellow on hover */
+}
+
+.social-media {
+    margin-top: 10px;
+}
+
+.social-media a {
+    color: #fff;
+    font-size: 18px;
+    margin: 0 10px;
+    transition: color 0.3s ease;
+}
+
+.social-media a:hover {
+    color: #c89d2f; /* Mustard Yellow on hover */
+}
+
