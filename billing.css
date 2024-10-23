@@ -1,0 +1,111 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #10273c;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+.home-button{
+    position: absolute;
+    left: 20px;
+    top: 5%;
+    transform: translateY(-50%);
+    background-color: #556c97;
+    color: white;
+    gap: 5px;
+    padding: 5px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 16px;
+}
+.logout-button {
+
+   position: absolute;
+    right: 20px;
+    top: 5%;
+    transform: translateY(-50%);
+    background-color: #556c97;
+    color: white;
+    gap: 5px;
+    padding: 5px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.home-button:hover {
+    background-color: #bbb425; /
+}
+.logout-button:hover{
+    background-color: #a01111;
+}
+.home-button i, .logout-button i {
+    font-size: 1.2rem; /* Adjust icon size if needed */
+}
+
+h1 {
+    margin: 0;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+h2 {
+    color: #556c97;
+    border-bottom: 2px solid #bbb425;
+    padding-bottom: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+th, td {
+    border: 1px solid #bbb425;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #556c97;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #e9e9e9;
+}
+
+button {
+    background-color: #bbb425;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #9a9e30;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #556c97;
+    color: white;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
