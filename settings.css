@@ -127,3 +127,60 @@ input[type="tel"] {
         width: 100%;
     }
 }
+footer {
+    background-color: #00293c; /* Dark Blue from your palette */
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    border-top: 5px solid #c89d2f; /* Mustard Yellow accent */
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer-content p {
+    margin: 10px 0;
+    font-size: 16px;
+}
+
+.footer-links {
+    list-style-type: none;
+    padding: 0;
+    margin: 15px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-links li {
+    margin: 0 15px;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+    transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+    color: #c89d2f; /* Mustard Yellow on hover */
+}
+
+.social-media {
+    margin-top: 10px;
+}
+
+.social-media a {
+    color: #fff;
+    font-size: 18px;
+    margin: 0 10px;
+    transition: color 0.3s ease;
+}
+
+.social-media a:hover {
+    color: #c89d2f; /* Mustard Yellow on hover */
+}
+
