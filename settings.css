@@ -1,0 +1,275 @@
+/* General Styles */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    height: 100%;
+}
+
+
+
+/* Header styles */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #00293c;
+    color: white;
+    height: 100%;
+}
+
+/* Home Button (left) with lighter background box */
+.header-left .home-button {
+    font-size: 18px;
+    color: #00293c; /* Dark Blue text */
+    text-decoration: none;
+    padding: 10px 15px;
+    background-color: #cfd8e6; /* Light Gray/Blue box */
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.header-left .home-button i {
+    margin-right: 8px; /* Spacing for the icon */
+}
+
+.header-left .home-button:hover {
+    background-color: #c89d2f; /* Mustard Yellow on hover */
+    color: #00293c; /* Dark Blue text on hover */
+}
+
+/* Center Dashboard Title */
+.header-center h1 {
+    font-size: 28px;
+    text-align: center;
+    color: white;
+}
+
+/* Logout Button (right) with lighter background box */
+.header-right .logout-button {
+    font-size: 18px;
+    color: #00293c; /* Dark Blue text */
+    text-decoration: none;
+    padding: 10px 15px;
+    background-color: #cfd8e6; /* Light Gray/Blue box */
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.header-right .logout-button i {
+    margin-right: 8px; /* Spacing for the icon */
+}
+
+.header-right .logout-button:hover {
+    background-color: #ff4b5c; /* Red on hover */
+    color: white;
+}
+
+/* Center Dashboard Title */
+.header-center h1 {
+    font-size: 28px;
+    text-align: center;
+    color: white;
+}
+
+/* Logout Button (right) with lighter background box */
+.header-right .logout-button {
+    font-size: 18px;
+    color: #00293c; /* Dark Blue text */
+    text-decoration: none;
+    padding: 10px 15px;
+    background-color: #cfd8e6; /* Light Gray/Blue box */
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.header-right .logout-button i {
+    margin-right: 8px; /* Spacing for the icon */
+}
+
+.header-right .logout-button:hover {
+    background-color: #ff4b5c; /* Red on hover */
+    color: white;
+}
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+
+header h1 {
+    margin: 0;
+}
+
+
+/* Button Styles */
+
+.btn {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.btn-primary1{
+    position: absolute;
+    left: 20px;
+    top: 5%;
+    transform: translateY(-50%);
+    background-color: #556c97;
+    color: white;
+    padding: 5px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 16px;
+}
+.btn-primary1:hover{
+    background-color: #bbb425;
+}
+.btn-primary {
+    background-color: #556c97;
+    color: white;
+}
+
+.btn-primary:hover {
+    background-color: #bbb425;
+}
+
+.btn-danger {
+    position: absolute;
+    right: 20px;
+    top: 5%;
+    transform: translateY(-50%);
+    background-color: #556c97;
+    color: white;
+    padding: 5px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.btn-danger:hover {
+    background-color:  #a01111;
+}
+
+/* Card Styles */
+.card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px 0;
+}
+
+/* Form Group Styling */
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="url"],
+input[type="tel"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Layout for Two Columns */
+.dashboard-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.half-width {
+    width: 48%;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    .dashboard-container {
+        flex-direction: column;
+    }
+    
+    .half-width {
+        width: 100%;
+    }
+}
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #00293c;
+    color: white;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer-content p {
+    margin: 10px 0;
+    font-size: 16px;
+}
+
+.footer-links {
+    list-style-type: none;
+    padding: 0;
+    margin: 15px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-links li {
+    margin: 0 15px;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+    transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+    color: #c89d2f; /* Mustard Yellow on hover */
+}
+
+.social-media {
+    margin-top: 10px;
+}
+
+.social-media a {
+    color: #fff;
+    font-size: 18px;
+    margin: 0 10px;
+    transition: color 0.3s ease;
+}
+
+.social-media a:hover {
+    color: #c89d2f; /* Mustard Yellow on hover */
+}
+

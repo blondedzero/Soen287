@@ -1,0 +1,267 @@
+/* General header styling */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #00293c; /* Dark Blue */
+    color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Logo section */
+.logo img {
+    height: 100px;
+}
+
+.logo h1 {
+    margin-left: 10px;
+    height: 5px;
+    font-size: 28px;
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+    display: inline-block;
+}
+
+/* Navigation styling */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #00293c; /* Dark Blue */
+    font-size: 18px;
+    font-family: 'Arial', sans-serif;
+    padding: 10px 15px;
+    background-color: #cfd8e6; /* Light Gray/Blue */
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+/* Hover effect: pop and change color */
+nav ul li a:hover {
+    background-color: #c89d2f; /* Mustard Yellow */
+    color: #00293c; /* Dark Blue text */
+    transform: scale(1.1); /* Slight pop effect */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+.admin-overview {
+    padding: 30px;
+    background-color: #cfd8e6; /* Light Gray/Blue from your palette */
+    border-radius: 10px;
+    margin: 20px 0;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+    text-align: center;
+}
+
+.admin-overview h2 {
+    font-size: 28px;
+    color: #00293c; /* Dark Blue from your palette */
+    margin-bottom: 10px;
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+}
+
+.admin-overview p {
+    font-size: 18px;
+    color: #555;
+    font-family: 'Arial', sans-serif;
+}
+
+
+
+.quick-access {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.feature-card {
+    background-color: #cfd8e6; /* Light Gray/Blue from your palette */
+    padding: 30px;
+    text-align: center;
+    width: 20%;
+    border-radius: 8px;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.feature-card:hover {
+    transform: scale(1.05); /* Slight zoom on hover */
+    background-color: #e0e0e0; /* Slightly lighter background on hover */
+}
+
+.feature-card a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #00293c; /* Dark Blue text */
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+.admin-stats {
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+    background-color: #f9f9f9;
+    margin-top: 20px;
+}
+
+.stat-item {
+    text-decoration: none;
+    text-align: center;
+    padding: 30px;
+    width: 25%;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    transition: transform 0.3s ease;
+}
+
+.stat-item:hover {
+    transform: scale(1.05); /* Slight zoom on hover */
+}
+
+.stat-item h3 {
+    font-size: 20px;
+    color: #00293c; /* Dark Blue from your palette */
+}
+
+.stat-number {
+    font-size: 36px; /* Larger font for the metrics */
+    color: #c89d2f; /* Mustard Yellow for metrics */
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.stat-item p {
+    margin: 0; /* Remove default margin */
+}
+
+
+
+
+
+.recent-activities {
+    padding: 20px;
+    background-color: #fff;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.recent-activities h3 {
+    font-size: 22px;
+    color: #00293c; /* Dark Blue from your palette */
+    margin-bottom: 15px;
+}
+
+.recent-activities ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.recent-activities ul li {
+    padding: 15px 0;
+    border-bottom: 1px solid #e0e0e0;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    transition: background-color 0.3s ease;
+}
+
+.recent-activities ul li:last-child {
+    border-bottom: none;
+}
+
+.recent-activities ul li:hover {
+    background-color: #f1f1f1; /* Light background on hover */
+}
+
+.activity-icon {
+    margin-right: 10px;
+    font-size: 20px;
+    color: #c89d2f; /* Mustard Yellow for the icons */
+}
+
+strong {
+    color: #00293c; /* Dark Blue for important text */
+}
+
+
+
+footer {
+    background-color: #00293c; /* Dark Blue from your palette */
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    border-top: 5px solid #c89d2f; /* Mustard Yellow accent */
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer-content p {
+    margin: 10px 0;
+    font-size: 16px;
+}
+
+.footer-links {
+    list-style-type: none;
+    padding: 0;
+    margin: 15px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-links li {
+    margin: 0 15px;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+    transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+    color: #c89d2f; /* Mustard Yellow on hover */
+}
+
+.social-media {
+    margin-top: 10px;
+}
+
+.social-media a {
+    color: #fff;
+    font-size: 18px;
+    margin: 0 10px;
+    transition: color 0.3s ease;
+}
+
+.social-media a:hover {
+    color: #c89d2f; /* Mustard Yellow on hover */
+}
+

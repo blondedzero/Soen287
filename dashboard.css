@@ -1,0 +1,267 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* Header styles */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #00293c;
+    color: white;
+    height: 100%;
+}
+
+/* Home Button (left) with lighter background box */
+.header-left .home-button {
+    font-size: 18px;
+    color: #00293c; /* Dark Blue text */
+    text-decoration: none;
+    padding: 10px 15px;
+    background-color: #cfd8e6; /* Light Gray/Blue box */
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.header-left .home-button i {
+    margin-right: 8px; /* Spacing for the icon */
+}
+
+.header-left .home-button:hover {
+    background-color: #c89d2f; /* Mustard Yellow on hover */
+    color: #00293c; /* Dark Blue text on hover */
+}
+
+/* Center Dashboard Title */
+.header-center h1 {
+    font-size: 28px;
+    text-align: center;
+    color: white;
+}
+
+/* Logout Button (right) with lighter background box */
+.header-right .logout-button {
+    font-size: 18px;
+    color: #00293c; /* Dark Blue text */
+    text-decoration: none;
+    padding: 10px 15px;
+    background-color: #cfd8e6; /* Light Gray/Blue box */
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.header-right .logout-button i {
+    margin-right: 8px; /* Spacing for the icon */
+}
+
+.header-right .logout-button:hover {
+    background-color: #ff4b5c; /* Red on hover */
+    color: white;
+}
+
+
+
+
+
+
+
+/* Services Overview Section */
+.services-overview {
+    padding: 20px;
+    background-color: #fff;
+    margin: 20px 0;
+}
+
+.service-stats {
+    display: flex;
+    justify-content: space-around;
+}
+
+.service-card {
+    background-color: #fff; /* Plain white box */
+    padding: 20px;
+    width: 30%;
+    border-radius: 8px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1); /* Shadow outside the box */
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Hover effect to enlarge the boxes and enhance the shadow */
+.service-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15); /* Stronger shadow on hover */
+}
+
+.service-card h4 {
+    font-size: 18px;
+    color: #00293c;
+}
+
+.service-card p {
+    font-size: 22px;
+    color: #c89d2f;
+}
+
+
+
+
+
+
+/* Summary Statistics Section (Admin Stats) */
+.admin-stats {
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+    margin-top: 20px;
+}
+
+.stat-item {
+    background-color: #fff; /* Plain white background */
+    padding: 20px;
+    width: 30%;
+    border-radius: 8px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1); /* Shadow outside the box */
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Hover effect to enlarge the boxes and enhance the shadow */
+.stat-item:hover {
+    transform: scale(1.05); /* Slightly enlarge on hover */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15); /* Stronger shadow on hover */
+}
+
+.stat-item h3 {
+    font-size: 20px;
+    color: #00293c;
+}
+
+.stat-number {
+    font-size: 36px;
+    color: #c89d2f;
+    font-weight: bold;
+}
+
+
+
+
+.recent-activities {
+    padding: 20px;
+    background-color: #fff;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.recent-activities h3 {
+    font-size: 22px;
+    color: #00293c; /* Dark Blue from your palette */
+    margin-bottom: 15px;
+}
+
+.recent-activities ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.recent-activities ul li {
+    padding: 15px 0;
+    border-bottom: 1px solid #e0e0e0;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    transition: background-color 0.3s ease;
+}
+
+.recent-activities ul li:last-child {
+    border-bottom: none;
+}
+
+.recent-activities ul li:hover {
+    background-color: #f1f1f1; /* Light background on hover */
+}
+
+.activity-icon {
+    margin-right: 10px;
+    font-size: 20px;
+    color: #c89d2f; /* Mustard Yellow for the icons */
+}
+
+strong {
+    color: #00293c; /* Dark Blue for important text */
+}
+
+
+
+footer {
+    background-color: #00293c; /* Dark Blue from your palette */
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    border-top: 5px solid #c89d2f; /* Mustard Yellow accent */
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer-content p {
+    margin: 10px 0;
+    font-size: 16px;
+}
+
+.footer-links {
+    list-style-type: none;
+    padding: 0;
+    margin: 15px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-links li {
+    margin: 0 15px;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+    transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+    color: #c89d2f; /* Mustard Yellow on hover */
+}
+
+.social-media {
+    margin-top: 10px;
+}
+
+.social-media a {
+    color: #fff;
+    font-size: 18px;
+    margin: 0 10px;
+    transition: color 0.3s ease;
+}
+
+.social-media a:hover {
+    color: #c89d2f; /* Mustard Yellow on hover */
+}
+
