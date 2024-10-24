@@ -1,0 +1,39 @@
+<!-- html file for login/register webpage -->
+<!DOCTYPE html>
+<html lang ="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entry</title>
+    <link rel="stylesheet" href="./entry-style.css">
+</head> 
+
+    <body>
+        <div class="container">
+            <div class="login-box">
+            <!-- admin form-->
+            <h2 id="admin-form-title">Admin Login</h2>
+                <form id="admin-form" action="#" method="POST">
+                    <!-- input elements -->
+                    <input type="text" id="admin-email" name="admin-email" required placeholder=" Email">
+                    <input type="password" id="admin-password" name="admin-password" required placeholder=" Password">
+                    <!-- options -->
+                    <div class="options"> 
+                        <!-- remember login credentials -->
+                        <input type="checkbox" id="remember" name="remember">
+                        <label for="remember">Remember me</label>
+                        <!-- forgot password -->
+                        <a href="#">Forgot Password?</a>
+                    </div>
+                    <button type="submit">Login</button>
+                    <!-- more options -->
+                    <p>Don't have an admin account? <a id="modified-link-color" href="#admin-register">Register</a></p>
+                    <p>Purchasing Services? <a id="modified-link-color" href="#customer">Login as Customer</a></p>
+                </form>
+            </div>
+        </div>  
+    </body>
+
+<!-- Note: Redirection links will be implemented in part 2 of the project --> 
+ </html>
