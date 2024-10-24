@@ -2,51 +2,70 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: #f9f9f9;
 }
 
+
+
+/* Header styles */
 header {
-    background-color: #10273c;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #00293c;
     color: white;
+}
+
+/* Home Button (left) with lighter background box */
+.header-left .home-button {
+    font-size: 18px;
+    color: #00293c; /* Dark Blue text */
+    text-decoration: none;
+    padding: 10px 15px;
+    background-color: #cfd8e6; /* Light Gray/Blue box */
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.header-left .home-button i {
+    margin-right: 8px; /* Spacing for the icon */
+}
+
+.header-left .home-button:hover {
+    background-color: #c89d2f; /* Mustard Yellow on hover */
+    color: #00293c; /* Dark Blue text on hover */
+}
+
+/* Center Dashboard Title */
+.header-center h1 {
+    font-size: 28px;
     text-align: center;
-    padding: 20px 0;
-}
-.home-button{
-    position: absolute;
-    left: 20px;
-    top: 5%;
-    transform: translateY(-50%);
-    background-color: #556c97;
     color: white;
-    gap: 5px;
-    padding: 5px 20px;
-    border-radius: 5px;
-    text-decoration: none;
-    font-size: 16px;
-}
-.logout-button {
-
-   position: absolute;
-    right: 20px;
-    top: 5%;
-    transform: translateY(-50%);
-    background-color: #556c97;
-    color: white;
-    gap: 5px;
-    padding: 5px 20px;
-    border-radius: 5px;
-    text-decoration: none;
-    font-size: 16px;
 }
 
-.home-button:hover {
-    background-color: #bbb425; /
+/* Logout Button (right) with lighter background box */
+.header-right .logout-button {
+    font-size: 18px;
+    color: #00293c; /* Dark Blue text */
+    text-decoration: none;
+    padding: 10px 15px;
+    background-color: #cfd8e6; /* Light Gray/Blue box */
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    transition: background-color 0.3s ease, color 0.3s ease;
 }
-.logout-button:hover{
-    background-color: #a01111;
+
+.header-right .logout-button i {
+    margin-right: 8px; /* Spacing for the icon */
 }
-.home-button i, .logout-button i {
-    font-size: 1.2rem; /* Adjust icon size if needed */
+
+.header-right .logout-button:hover {
+    background-color: #ff4b5c; /* Red on hover */
+    color: white;
 }
 
 h1 {
@@ -103,9 +122,58 @@ button:hover {
 footer {
     text-align: center;
     padding: 10px 0;
-    background-color: #556c97;
+    background-color: #00293c;
     color: white;
     position: absolute;
     width: 100%;
     bottom: 0;
 }
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer-content p {
+    margin: 10px 0;
+    font-size: 16px;
+}
+
+.footer-links {
+    list-style-type: none;
+    padding: 0;
+    margin: 15px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-links li {
+    margin: 0 15px;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+    transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+    color: #c89d2f; /* Mustard Yellow on hover */
+}
+
+.social-media {
+    margin-top: 10px;
+}
+
+.social-media a {
+    color: #fff;
+    font-size: 18px;
+    margin: 0 10px;
+    transition: color 0.3s ease;
+}
+
+.social-media a:hover {
+    color: #c89d2f; /* Mustard Yellow on hover */
+}
+
