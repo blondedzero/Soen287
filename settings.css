@@ -1,4 +1,4 @@
-/* General Styles */
+
 
 body {
     font-family: Arial, sans-serif;
@@ -10,7 +10,6 @@ body {
 
 
 
-/* Header styles */
 header {
     display: flex;
     justify-content: space-between;
@@ -21,13 +20,13 @@ header {
     height: 100%;
 }
 
-/* Home Button (left) with lighter background box */
+
 .header-left .home-button {
     font-size: 18px;
-    color: #00293c; /* Dark Blue text */
+    color: #00293c; 
     text-decoration: none;
     padding: 10px 15px;
-    background-color: #cfd8e6; /* Light Gray/Blue box */
+    background-color: #cfd8e6; 
     border-radius: 8px;
     display: flex;
     align-items: center;
@@ -35,28 +34,28 @@ header {
 }
 
 .header-left .home-button i {
-    margin-right: 8px; /* Spacing for the icon */
+    margin-right: 8px; 
 }
 
 .header-left .home-button:hover {
-    background-color: #c89d2f; /* Mustard Yellow on hover */
-    color: #00293c; /* Dark Blue text on hover */
+    background-color: #c89d2f; 
+    color: #00293c; 
 }
 
-/* Center Dashboard Title */
+
 .header-center h1 {
     font-size: 28px;
     text-align: center;
     color: white;
 }
 
-/* Logout Button (right) with lighter background box */
+
 .header-right .logout-button {
     font-size: 18px;
-    color: #00293c; /* Dark Blue text */
+    color: #00293c; 
     text-decoration: none;
     padding: 10px 15px;
-    background-color: #cfd8e6; /* Light Gray/Blue box */
+    background-color: #cfd8e6; 
     border-radius: 8px;
     display: flex;
     align-items: center;
@@ -64,28 +63,28 @@ header {
 }
 
 .header-right .logout-button i {
-    margin-right: 8px; /* Spacing for the icon */
+    margin-right: 8px; 
 }
 
 .header-right .logout-button:hover {
-    background-color: #ff4b5c; /* Red on hover */
+    background-color: #ff4b5c; 
     color: white;
 }
 
-/* Center Dashboard Title */
+
 .header-center h1 {
     font-size: 28px;
     text-align: center;
     color: white;
 }
 
-/* Logout Button (right) with lighter background box */
+
 .header-right .logout-button {
     font-size: 18px;
-    color: #00293c; /* Dark Blue text */
+    color: #00293c; 
     text-decoration: none;
     padding: 10px 15px;
-    background-color: #cfd8e6; /* Light Gray/Blue box */
+    background-color: #cfd8e6; 
     border-radius: 8px;
     display: flex;
     align-items: center;
@@ -93,11 +92,11 @@ header {
 }
 
 .header-right .logout-button i {
-    margin-right: 8px; /* Spacing for the icon */
+    margin-right: 8px; /
 }
 
 .header-right .logout-button:hover {
-    background-color: #ff4b5c; /* Red on hover */
+    background-color: #ff4b5c; 
     color: white;
 }
 .container {
@@ -113,7 +112,7 @@ header h1 {
 }
 
 
-/* Button Styles */
+
 
 .btn {
     padding: 10px 15px;
@@ -163,7 +162,7 @@ header h1 {
     background-color:  #a01111;
 }
 
-/* Card Styles */
+
 .card {
     background-color: #fff;
     padding: 20px;
@@ -172,7 +171,7 @@ header h1 {
     margin: 20px 15px;
 }
 
-/* Form Group Styling */
+
 .form-group {
     margin-bottom: 15px;
 }
@@ -194,7 +193,7 @@ input[type="tel"] {
     border-radius: 5px;
 }
 
-/* Layout for Two Columns */
+
 
 .dashboard-container {
     display: flex;
@@ -206,7 +205,7 @@ input[type="tel"] {
     width: 48%;
 }
 
-/* Media Queries */
+
 @media (max-width: 768px) {
     .dashboard-container {
         flex-direction: column;
@@ -257,7 +256,7 @@ footer {
 }
 
 .footer-links a:hover {
-    color: #c89d2f; /* Mustard Yellow on hover */
+    color: #c89d2f; 
 }
 
 .social-media {
@@ -272,6 +271,6 @@ footer {
 }
 
 .social-media a:hover {
-    color: #c89d2f; /* Mustard Yellow on hover */
+    color: #c89d2f; 
 }
 
