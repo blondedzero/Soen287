@@ -1,0 +1,217 @@
+html {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing:border-box;
+    background-color: #cfd8e6;
+  }
+
+  body {
+    margin: 0;
+    padding: 0;
+  }
+
+  /* to add backgrounf before the body and blur it*/
+  body::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    background: url('/images/backgroundRequest.jpg') no-repeat center center;
+    background-size: cover;
+    filter: blur(8px); 
+  }
+
+/*header along with navigatio bar css*/
+header{
+    width: 100%;
+    background-color: #c89d2f;
+    height: 8%;
+  }
+  header table{
+    font-size: 1.2vw;
+  }
+
+.navbar{
+    background-color: #00293c;
+    max-width: 100%;
+    padding: 0% 0%;
+    display: flex;
+    align-items: center; 
+    position: relative;
+    gap: 1%;  
+  }
+  .navbar #C{
+    color: white;
+  }
+  .navbar p{
+    padding-left: 3%;
+    color: white;
+  
+  }
+  .navbar #logo {
+    font-style: italic;
+    color: white;
+    height: 5%;
+    width: 5%;
+  }
+  
+  .navbar ul {
+    list-style-type: none;
+    margin: 0;
+    margin-left: 2%;
+    display: flex; 
+    gap: 5%; 
+  }
+  
+  .navbar ul li{
+    position: relative;
+  }
+  .navbar ul li a {
+    color: white;
+    text-align: center;
+    padding: 1vw 2vw;
+    text-decoration: none;
+    font-size: 80%;
+  
+  }
+  
+  .navbar ul li a:hover {
+    color: #e9bd4e; 
+  }
+  .navbar ul li ul.sub-nav{
+    position: absolute;
+    background-color:#00293c;
+    width: auto;
+    height: auto;
+    display: none;
+    z-index: 1;
+    left: 0;
+    margin-top: 10%;
+  }
+  
+  .navbar ul li ul.sub-nav li {
+    margin-left: -35px;
+    margin-right: 35px;
+  }
+  
+  .navbar ul li ul.sub-nav li a{ 
+    color: white;
+    font-size-adjust: 2vw;
+    padding: 1vw;
+    text-align: left;
+    display: flex;
+  }
+  
+  .navbar ul li ul.sub-nav li a:hover {
+    color: #e9bd4e;
+    text-decoration: underline;
+  }
+  
+  .navbar ul li:hover ul.sub-nav{
+    display: block;
+  }
+  
+  .search-bar {
+    margin-left: 5%;
+   font-size: 1vw;
+  }
+  
+  @media (max-width: 768px) {
+    .navbar input[type="text"] {
+      display: none;   } 
+      .navbar #C{
+        display: none;
+      }      
+  }
+  
+  .navbar a{
+    text-decoration: none;
+    color: black;
+  }
+  
+  #sign {
+    position: absolute;
+    right: 1vw;
+    background-color:#cfd8e6;
+    font-style: italic;
+    padding: 1vw 1.4vw;
+    border-radius: 2vw;
+    text-align: center;
+    cursor: pointer;
+    font-size: 1vw;
+    transition: all 0.1s ease-in-out;
+    max-width: calc(100% - 2vw);
+  }
+  
+  #sign:hover {
+    background-color: #e9bd4e;
+  }
+
+/* Form container to submit a request */
+.form-container {
+  position: relative;
+  background-color:rgba(255, 255, 255, 0.9);
+  max-width: 500px;
+  margin: 5% auto; 
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(82, 78, 82, 0.1);
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  backdrop-filter: blur(5px); 
+}
+
+.form-container h2 {
+  margin-bottom: 20px;
+  font-size: 2rem;
+  color: #00293c;
+}
+
+.form-group {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 1.1rem;
+  color: #00293c;
+}
+
+#special-service-form input[type="text"],
+#special-service-form textarea,
+#special-service-form select {
+  width: 100%;
+  padding-left: 0;
+  margin-top: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+}
+
+/* Submit Button */
+.submit-btn {
+  background-color: #00293c;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submit-btn:hover {
+  background-color:#c89d2f;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .form-container {
+    margin: 20% auto;
+    padding: 20px;
+  }
+}
