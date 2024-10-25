@@ -169,7 +169,7 @@ header h1 {
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    margin: 20px 0;
+    margin: 20px 15px;
 }
 
 /* Form Group Styling */
@@ -188,16 +188,18 @@ input[type="email"],
 input[type="password"],
 input[type="url"],
 input[type="tel"] {
-    width: 100%;
+    width: 90%;
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
 }
 
 /* Layout for Two Columns */
+
 .dashboard-container {
     display: flex;
     justify-content: space-between;
+
 }
 
 .half-width {
