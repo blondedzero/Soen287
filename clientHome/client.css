@@ -5,19 +5,24 @@ html, body {
   padding: 0;
 }
 
-div {
+header{
+  width: 100%;
+  background-color: #c89d2f;
+  height: 8%;
+}
+header table{
+  font-size: 1.2vw;
+}
+
+/*navbar section*/
+.navbar{
+  background-color: #00293c;
   max-width: 100%;
-  background-color: white;
   padding: 0% 0%;
   display: flex;
   align-items: center; 
   position: relative;
-  gap: 1%;
-  
-}
-
-.navbar{
-  background-color: #00293c;
+  gap: 1%;  
 }
 .navbar #C{
   color: white;
@@ -39,7 +44,7 @@ div {
   margin: 0;
   margin-left: 2%;
   display: flex; 
-  gap: 5%; /* spacing between list items */
+  gap: 5%; 
 }
 
 .navbar ul li{
@@ -49,7 +54,7 @@ div {
   color: white;
   text-align: center;
   padding: 1vw 2vw;
-  text-decoration: none; /* Clean up link styling */
+  text-decoration: none;
   font-size: 80%;
 
 }
@@ -123,27 +128,18 @@ div {
   background-color: #e9bd4e;
 }
 
-table {
-  padding: 1vw;
-  width: 100%;
-  box-sizing: border-box;
-}
-
-td {
-  color: black;
-}
-
+/*WELCOME MESSAGE*/
 .top {
   padding: 5% 8%;
-  background-color: #cfd8e6; /* Light Gray/Blue from your palette */
+  background-color: #cfd8e6;
   border-radius: 1%;
-  margin: 2% 5%;
+  margin: 2% 2%;
   text-align: center;
 }
 
 .top h2 {
   font-size: 2.5vw;
-  color: #00293c; /* Dark Blue from your palette */
+  color: #00293c; 
   margin-bottom: 5%;
   font-family: 'Arial', sans-serif;
 }
@@ -154,37 +150,134 @@ td {
   font-family: 'Arial', sans-serif;
 }
 
+/* what do we offer section*/
 #services {
   max-width: 100%;
-  padding: 50px 0px;
+  padding: 5% 5%;
   text-align: center;
+  margin-bottom: 3%;
 }
 
 .services-container {
   justify-content: center;
-  gap: 1%;
+  gap: 1vw;
+  display: inline-flex;
 }
 
 .services-container img {
-  height: 15%;
-  width: 15%;
+  height: auto;
+  width: 45%;
   display:inline;
+  padding-top: 7%;
+  border-radius: 70%;
  
 }
 
 .service h3 {
-  font-size: 1.5rem;
-  margin-top: 10px;
+  font-size: 2vw;
+  margin-top: 5%;
+  color:#00293c ;
 
 }
 
 .service p {
-  font-size: 1vw;
+  font-size: 0.8rem;
   color: #555;
- 
+  padding-top: -10%;
 }
 
+#discover {
+  background-color:#00293c;
+  color: white;
+  font-style: italic;
+  padding: 1% 2%;
+  text-decoration: none;
+  font-size: 1vw;
+  border-radius: 30px;
+  transition: background-color 0.3s, color 0.3s;
+  position: relative;
+  top:5vw;
+}
 
+#discover:hover {
+  background-color:#c89d2f; 
+}
+
+/* how it works section */
+#how-it-works {
+  max-width: 100%;
+  padding: 5% 5%;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+.how-it-works-container {
+  justify-content: center;
+  gap: 10px;
+  
+}
+
+.step img {
+  height: 100px;
+  width: 100px;
+  display:inline;
+  padding-top: 5%;
+  border-radius: 2%;
+}
+
+.step h3 {
+  font-size: 1.5vw;
+  margin-top: 10px;
+  color:#00293c;
+}
+
+.step p {
+  font-size: 0.8rem;
+  color: #555;
+  margin-top: -25%;
+  display: inline-flex;
+}
+
+/* WHY CHOOSE US SECTION*/
+#why-choose-us {
+  max-width: 100%;
+  padding: 4% 10%;
+  text-align: center;
+  background-color: #00293c;
+  color: #cfd8e6;
+  margin-bottom: 3%;
+}
+
+.why-us-container {
+  justify-content: center;
+  gap: 10%;
+  display:flex;
+}
+
+.reason {
+  text-align: center; /* Center text and image */
+  flex: 1;
+}
+.reason img {
+  height: 100px;
+  width: 100px;
+  padding-top: 7%;
+  border-radius: 50%;
+}
+
+.reason h3 {
+  font-size: 1vw;
+  margin-top: 5%;
+  color:#c89d2f;
+}
+
+.reason p {
+  font-size: 0.7rem;
+  color:#cfd8e6;
+  padding-top: -10%;
+}
+
+/*footer*/
 footer{
   font-family: 'Times New Roman', Times, serif;
   max-width: 100%;
