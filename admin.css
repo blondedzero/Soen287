@@ -125,6 +125,7 @@ nav ul li a:hover {
 }
 
 .stat-item {
+    text-decoration: none;
     text-align: center;
     padding: 30px;
     width: 25%;
