@@ -7,7 +7,7 @@ body {
 
 
 
-/* Header styles */
+
 header {
     display: flex;
     justify-content: space-between;
@@ -17,13 +17,13 @@ header {
     color: white;
 }
 
-/* Home Button (left) with lighter background box */
+
 .header-left .home-button {
     font-size: 18px;
-    color: #00293c; /* Dark Blue text */
+    color: #00293c; 
     text-decoration: none;
     padding: 10px 15px;
-    background-color: #cfd8e6; /* Light Gray/Blue box */
+    background-color: #cfd8e6; 
     border-radius: 8px;
     display: flex;
     align-items: center;
@@ -31,28 +31,28 @@ header {
 }
 
 .header-left .home-button i {
-    margin-right: 8px; /* Spacing for the icon */
+    margin-right: 8px; 
 }
 
 .header-left .home-button:hover {
-    background-color: #c89d2f; /* Mustard Yellow on hover */
-    color: #00293c; /* Dark Blue text on hover */
+    background-color: #c89d2f; 
+    color: #00293c; 
 }
 
-/* Center Dashboard Title */
+
 .header-center h1 {
     font-size: 28px;
     text-align: center;
     color: white;
 }
 
-/* Logout Button (right) with lighter background box */
+
 .header-right .logout-button {
     font-size: 18px;
-    color: #00293c; /* Dark Blue text */
+    color: #00293c; 
     text-decoration: none;
     padding: 10px 15px;
-    background-color: #cfd8e6; /* Light Gray/Blue box */
+    background-color: #cfd8e6; 
     border-radius: 8px;
     display: flex;
     align-items: center;
@@ -60,11 +60,11 @@ header {
 }
 
 .header-right .logout-button i {
-    margin-right: 8px; /* Spacing for the icon */
+    margin-right: 8px; 
 }
 
 .header-right .logout-button:hover {
-    background-color: #ff4b5c; /* Red on hover */
+    background-color: #ff4b5c; 
     color: white;
 }
 
@@ -159,7 +159,7 @@ footer {
 }
 
 .footer-links a:hover {
-    color: #c89d2f; /* Mustard Yellow on hover */
+    color: #c89d2f; 
 }
 
 .social-media {
@@ -174,6 +174,6 @@ footer {
 }
 
 .social-media a:hover {
-    color: #c89d2f; /* Mustard Yellow on hover */
+    color: #c89d2f; 
 }
 
