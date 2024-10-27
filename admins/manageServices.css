@@ -1,4 +1,4 @@
-/* General styles */
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -8,7 +8,7 @@ body {
 
 
 
-/* Header styles */
+
 header {
     display: flex;
     justify-content: space-between;
@@ -18,13 +18,13 @@ header {
     color: white;
 }
 
-/* Home Button (left) with lighter background box */
+
 .header-left .home-button {
     font-size: 18px;
-    color: #00293c; /* Dark Blue text */
+    color: #00293c;
     text-decoration: none;
     padding: 10px 15px;
-    background-color: #cfd8e6; /* Light Gray/Blue box */
+    background-color: #cfd8e6;
     border-radius: 8px;
     display: flex;
     align-items: center;
@@ -32,28 +32,28 @@ header {
 }
 
 .header-left .home-button i {
-    margin-right: 8px; /* Spacing for the icon */
+    margin-right: 8px;
 }
 
 .header-left .home-button:hover {
-    background-color: #c89d2f; /* Mustard Yellow on hover */
-    color: #00293c; /* Dark Blue text on hover */
+    background-color: #c89d2f;
+    color: #00293c;
 }
 
-/* Center Dashboard Title */
+
 .header-center h1 {
     font-size: 28px;
     text-align: center;
     color: white;
 }
 
-/* Logout Button (right) with lighter background box */
+
 .header-right .logout-button {
     font-size: 18px;
-    color: #00293c; /* Dark Blue text */
+    color: #00293c;
     text-decoration: none;
     padding: 10px 15px;
-    background-color: #cfd8e6; /* Light Gray/Blue box */
+    background-color: #cfd8e6;
     border-radius: 8px;
     display: flex;
     align-items: center;
@@ -61,30 +61,30 @@ header {
 }
 
 .header-right .logout-button i {
-    margin-right: 8px; /* Spacing for the icon */
+    margin-right: 8px;
 }
 
 .header-right .logout-button:hover {
-    background-color: #ff4b5c; /* Red on hover */
+    background-color: #ff4b5c;
     color: white;
 }
 
 
-/* Manage Services Section */
+
 .manage-services {
     padding: 20px;
     background-color: #fff;
     margin-top: 20px;
 }
 
-/* Add New Service Button */
+
 .add-service {
     text-align: right;
     margin-bottom: 20px;
 }
 
 .add-service-button {
-    background-color: #c89d2f; /* Mustard Yellow */
+    background-color: #c89d2f;
     color: #fff;
     border: none;
     padding: 10px 20px;
@@ -95,11 +95,11 @@ header {
 }
 
 .add-service-button:hover {
-    background-color: #b58628; /* Slightly darker yellow on hover */
-    transform: scale(1.05); /* Slight zoom on hover */
+    background-color: #b58628;
+    transform: scale(1.05);
 }
 
-/* Service List Layout */
+
 .service-list {
     display: flex;
     flex-wrap: wrap;
@@ -107,25 +107,25 @@ header {
     justify-content: space-around;
 }
 
-/* Service Card */
+
 .service-card {
-    background-color: #cfd8e6; /* Light Gray/Blue background */
+    background-color: #cfd8e6;
     padding: 20px;
     width: 30%;
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-/* Hover effect for service cards */
+
 .service-card:hover {
-    transform: scale(1.05); /* Slight zoom on hover */
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15); /* Stronger shadow on hover */
+    transform: scale(1.05);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
 }
 
 .service-card h3 {
     font-size: 20px;
-    color: #00293c; /* Dark Blue */
+    color: #00293c;
 }
 
 .service-card p {
@@ -134,13 +134,13 @@ header {
     margin: 5px 0;
 }
 
-/* Service Actions (Edit, Delete) */
+
 .service-actions {
     margin-top: 15px;
 }
 
 .edit-button, .delete-button {
-    background-color: #00293c; /* Dark Blue */
+    background-color: #00293c;
     color: #fff;
     border: none;
     padding: 8px 12px;
@@ -151,25 +151,25 @@ header {
     transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
-/* Edit Button Hover */
+
 .edit-button:hover {
-    background-color: #004b70; /* Slightly lighter blue on hover */
+    background-color: #004b70;
     transform: scale(1.05);
 }
 
-/* Delete Button Hover */
+
 .delete-button:hover {
-    background-color: #ff4b5c; /* Red for delete button */
+    background-color: #ff4b5c;
     transform: scale(1.05);
 }
 
 
 footer {
-    background-color: #00293c; /* Dark Blue from your palette */
+    background-color: #00293c;
     color: #fff;
     padding: 20px 0;
     text-align: center;
-    border-top: 5px solid #c89d2f; /* Mustard Yellow accent */
+    border-top: 5px solid #c89d2f;
 }
 
 .footer-content {
@@ -203,7 +203,7 @@ footer {
 }
 
 .footer-links a:hover {
-    color: #c89d2f; /* Mustard Yellow on hover */
+    color: #c89d2f;
 }
 
 .social-media {
@@ -218,6 +218,6 @@ footer {
 }
 
 .social-media a:hover {
-    color: #c89d2f; /* Mustard Yellow on hover */
+    color: #c89d2f;
 }
 

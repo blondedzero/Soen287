@@ -1,15 +1,15 @@
-/* General header styling */
+
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-    background-color: #00293c; /* Dark Blue */
+    background-color: #00293c;
     color: white;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-/* Logo section */
+
 .logo img {
     height: 100px;
 }
@@ -23,7 +23,7 @@ header {
     display: inline-block;
 }
 
-/* Navigation styling */
+
 nav ul {
     list-style-type: none;
     margin: 0;
@@ -37,36 +37,36 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color: #00293c; /* Dark Blue */
+    color: #00293c;
     font-size: 18px;
     font-family: 'Arial', sans-serif;
     padding: 10px 15px;
-    background-color: #cfd8e6; /* Light Gray/Blue */
+    background-color: #cfd8e6;
     border-radius: 5px;
     transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
-/* Hover effect: pop and change color */
+
 nav ul li a:hover {
-    background-color: #c89d2f; /* Mustard Yellow */
-    color: #00293c; /* Dark Blue text */
-    transform: scale(1.1); /* Slight pop effect */
+    background-color: #c89d2f;
+    color: #00293c;
+    transform: scale(1.1);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 
 .admin-overview {
     padding: 30px;
-    background-color: #cfd8e6; /* Light Gray/Blue from your palette */
+    background-color: #cfd8e6;
     border-radius: 10px;
     margin: 20px 0;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     text-align: center;
 }
 
 .admin-overview h2 {
     font-size: 28px;
-    color: #00293c; /* Dark Blue from your palette */
+    color: #00293c;
     margin-bottom: 10px;
     font-family: 'Arial', sans-serif;
     font-weight: bold;
@@ -88,24 +88,24 @@ nav ul li a:hover {
 }
 
 .feature-card {
-    background-color: #cfd8e6; /* Light Gray/Blue from your palette */
+    background-color: #cfd8e6;
     padding: 30px;
     text-align: center;
     width: 20%;
     border-radius: 8px;
     transition: transform 0.3s ease, background-color 0.3s ease;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .feature-card:hover {
-    transform: scale(1.05); /* Slight zoom on hover */
-    background-color: #e0e0e0; /* Slightly lighter background on hover */
+    transform: scale(1.05);
+    background-color: #e0e0e0;
 }
 
 .feature-card a {
     text-decoration: none;
     font-size: 18px;
-    color: #00293c; /* Dark Blue text */
+    color: #00293c;
     font-family: 'Arial', sans-serif;
     font-weight: bold;
 }
@@ -131,28 +131,28 @@ nav ul li a:hover {
     width: 25%;
     background-color: #fff;
     border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease;
 }
 
 .stat-item:hover {
-    transform: scale(1.05); /* Slight zoom on hover */
+    transform: scale(1.05);
 }
 
 .stat-item h3 {
     font-size: 20px;
-    color: #00293c; /* Dark Blue from your palette */
+    color: #00293c;
 }
 
 .stat-number {
-    font-size: 36px; /* Larger font for the metrics */
-    color: #c89d2f; /* Mustard Yellow for metrics */
+    font-size: 36px;
+    color: #c89d2f;
     font-weight: bold;
     margin-top: 10px;
 }
 
 .stat-item p {
-    margin: 0; /* Remove default margin */
+    margin: 0;
 }
 
 
@@ -164,12 +164,12 @@ nav ul li a:hover {
     background-color: #fff;
     margin-top: 20px;
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .recent-activities h3 {
     font-size: 22px;
-    color: #00293c; /* Dark Blue from your palette */
+    color: #00293c;
     margin-bottom: 15px;
 }
 
@@ -193,27 +193,27 @@ nav ul li a:hover {
 }
 
 .recent-activities ul li:hover {
-    background-color: #f1f1f1; /* Light background on hover */
+    background-color: #f1f1f1;
 }
 
 .activity-icon {
     margin-right: 10px;
     font-size: 20px;
-    color: #c89d2f; /* Mustard Yellow for the icons */
+    color: #c89d2f;
 }
 
 strong {
-    color: #00293c; /* Dark Blue for important text */
+    color: #00293c;
 }
 
 
 
 footer {
-    background-color: #00293c; /* Dark Blue from your palette */
+    background-color: #00293c;
     color: #fff;
     padding: 20px 0;
     text-align: center;
-    border-top: 5px solid #c89d2f; /* Mustard Yellow accent */
+    border-top: 5px solid #c89d2f;
 }
 
 .footer-content {
@@ -247,7 +247,7 @@ footer {
 }
 
 .footer-links a:hover {
-    color: #c89d2f; /* Mustard Yellow on hover */
+    color: #c89d2f;
 }
 
 .social-media {
@@ -262,6 +262,6 @@ footer {
 }
 
 .social-media a:hover {
-    color: #c89d2f; /* Mustard Yellow on hover */
+    color: #c89d2f;
 }
 

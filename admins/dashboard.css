@@ -1,4 +1,4 @@
-/* General styles */
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -10,7 +10,7 @@ body {
 }
 
 
-/* Header styles */
+
 header {
     display: flex;
     justify-content: space-between;
@@ -21,13 +21,13 @@ header {
     height: 100%;
 }
 
-/* Home Button (left) with lighter background box */
+
 .header-left .home-button {
     font-size: 18px;
-    color: #00293c; /* Dark Blue text */
+    color: #00293c;
     text-decoration: none;
     padding: 10px 15px;
-    background-color: #cfd8e6; /* Light Gray/Blue box */
+    background-color: #cfd8e6;
     border-radius: 8px;
     display: flex;
     align-items: center;
@@ -35,28 +35,28 @@ header {
 }
 
 .header-left .home-button i {
-    margin-right: 8px; /* Spacing for the icon */
+    margin-right: 8px;
 }
 
 .header-left .home-button:hover {
-    background-color: #c89d2f; /* Mustard Yellow on hover */
-    color: #00293c; /* Dark Blue text on hover */
+    background-color: #c89d2f;
+    color: #00293c;
 }
 
-/* Center Dashboard Title */
+
 .header-center h1 {
     font-size: 28px;
     text-align: center;
     color: white;
 }
 
-/* Logout Button (right) with lighter background box */
+
 .header-right .logout-button {
     font-size: 18px;
-    color: #00293c; /* Dark Blue text */
+    color: #00293c;
     text-decoration: none;
     padding: 10px 15px;
-    background-color: #cfd8e6; /* Light Gray/Blue box */
+    background-color: #cfd8e6;
     border-radius: 8px;
     display: flex;
     align-items: center;
@@ -64,11 +64,11 @@ header {
 }
 
 .header-right .logout-button i {
-    margin-right: 8px; /* Spacing for the icon */
+    margin-right: 8px;
 }
 
 .header-right .logout-button:hover {
-    background-color: #ff4b5c; /* Red on hover */
+    background-color: #ff4b5c;
     color: white;
 }
 
@@ -78,7 +78,7 @@ header {
 
 
 
-/* Services Overview Section */
+
 .services-overview {
     padding: 20px;
     background-color: #fff;
@@ -91,19 +91,19 @@ header {
 }
 
 .service-card {
-    background-color: #fff; /* Plain white box */
+    background-color: #fff;
     padding: 20px;
     width: 30%;
     border-radius: 8px;
-    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1); /* Shadow outside the box */
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
     text-align: center;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-/* Hover effect to enlarge the boxes and enhance the shadow */
+
 .service-card:hover {
     transform: scale(1.05);
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15); /* Stronger shadow on hover */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
 }
 
 .service-card h4 {
@@ -121,7 +121,7 @@ header {
 
 
 
-/* Summary Statistics Section (Admin Stats) */
+
 .admin-stats {
     display: flex;
     justify-content: space-around;
@@ -130,19 +130,19 @@ header {
 }
 
 .stat-item {
-    background-color: #fff; /* Plain white background */
+    background-color: #fff;
     padding: 20px;
     width: 30%;
     border-radius: 8px;
-    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1); /* Shadow outside the box */
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
     text-align: center;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-/* Hover effect to enlarge the boxes and enhance the shadow */
+
 .stat-item:hover {
-    transform: scale(1.05); /* Slightly enlarge on hover */
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15); /* Stronger shadow on hover */
+    transform: scale(1.05);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
 }
 
 .stat-item h3 {
@@ -164,12 +164,12 @@ header {
     background-color: #fff;
     margin-top: 20px;
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .recent-activities h3 {
     font-size: 22px;
-    color: #00293c; /* Dark Blue from your palette */
+    color: #00293c;
     margin-bottom: 15px;
 }
 
@@ -193,27 +193,27 @@ header {
 }
 
 .recent-activities ul li:hover {
-    background-color: #f1f1f1; /* Light background on hover */
+    background-color: #f1f1f1;
 }
 
 .activity-icon {
     margin-right: 10px;
     font-size: 20px;
-    color: #c89d2f; /* Mustard Yellow for the icons */
+    color: #c89d2f;
 }
 
 strong {
-    color: #00293c; /* Dark Blue for important text */
+    color: #00293c;
 }
 
 
 
 footer {
-    background-color: #00293c; /* Dark Blue from your palette */
+    background-color: #00293c;
     color: #fff;
     padding: 20px 0;
     text-align: center;
-    border-top: 5px solid #c89d2f; /* Mustard Yellow accent */
+    border-top: 5px solid #c89d2f;
 }
 
 .footer-content {
@@ -247,7 +247,7 @@ footer {
 }
 
 .footer-links a:hover {
-    color: #c89d2f; /* Mustard Yellow on hover */
+    color: #c89d2f;
 }
 
 .social-media {
@@ -262,6 +262,6 @@ footer {
 }
 
 .social-media a:hover {
-    color: #c89d2f; /* Mustard Yellow on hover */
+    color: #c89d2f;
 }
 
