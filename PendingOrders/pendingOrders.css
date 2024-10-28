@@ -1,0 +1,50 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing:border-box;
+    height: 100%;
+    margin: 0;
+  }
+  body::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    background: url('/images/backgroundPending.jpg') no-repeat center center;
+    background-size: auto;
+    filter: blur(0px); 
+  }
+body{
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+    text-align: center;
+    background-color: burlywood;
+}
+.Pending{
+    position: relative;
+    background-color:rgba(255, 255, 255, 0.9);
+    margin: 15rem 30vw; 
+    padding: 5% 1% 5%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(82, 78, 82, 0.1);
+    background-color: #cfd8e6;
+    filter:opacity(0.7) ;
+}
+.Pending #clockImg{
+    width: 80px;
+    height: 80px;
+    max-height: 200px; 
+    object-fit: contain; 
+    border-radius: 5px;
+    margin-bottom: 7%;
+}
+.Pending h2{
+  padding: 0px 25px;
+  font-size: 1.5vw;
+  color: rgb(118, 118, 118);
+}
+
+

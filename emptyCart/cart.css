@@ -1,0 +1,42 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing:border-box;
+    height: 100%;
+  }
+
+body{
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+    text-align: center;
+    background-color: #cfd8e6;
+}
+.empty-cart {
+    position: relative;
+    background-color:rgba(255, 255, 255, 0.9);
+    margin: 15rem 25vw; 
+    padding: 4% 1% 4%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(82, 78, 82, 0.1);
+}
+.empty-cart #emptyCart{
+    width: 80px;
+    height: 80px;
+    max-height: 200px; 
+    object-fit: contain; 
+    border-radius: 5px;
+}
+.empty-cart h2{
+  padding: 0px 25px;
+  font-size: 2vw;
+  color: rgb(118, 118, 118);
+}
+.empty-cart p{
+    font-size: 1.1vw;
+    color: gray;
+    padding: 5px 50px;
+    margin: 5px 10px;
+}
+
