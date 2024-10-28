@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color:#cfd8e6;
+  }
+  
+  h2 {
+    text-align: center;
+    padding: 20px 0;
+    color: #00293c;
+  }
+  
+  /* Services Section */
+  #services {
+    max-width: 75%;
+    margin: 0 auto;
+    padding: 20px 0px;
+  }
+
+  .service {
+    display: flex;
+    background-color: white;
+    margin: 20px 0;
+    padding: 20px 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    align-items: center;
+  }
+  
+  .service img {
+    width: 150px;
+    height: 150px;
+    border-radius: 2px;
+    margin-right: 2%;
+  }
+  
+  .service-info h3 {
+    margin: 0;
+    font-size: 1.3rem;
+    color: #00293c;
+  }
+  
+  .service-info p {
+    margin: 5px 0;
+    color: #555;
+    font-size: 0.9rem;
+  }
+  
+  .service-info button {
+    background-color:#00293c;
+    color: white;
+    border: none;
+    padding: 2% 4%;
+    margin-top: 5px;
+    font-size: 0.8rem;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .service-info button:hover {
+    background-color: #c89d2f;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .service {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .service img {
+      margin-bottom: 10px;
+    }
+  }
+  
