@@ -22,30 +22,30 @@
    
 </header>
 
+<!--navigation bar section-->
 <nav>
 <div class="navbar">
     <p>STRIVUS</p>
 <img id="logo" src="/images/Strivus Logo.webp"alt="Strivus Logo">
 <ul>
     
-    <li><a href="#home"><i class="fa fa-home"></i></a></li>
-    <li><a href="#services">SERVICES</a></li>
+  <!--home page hyperlink click on-->
+    <li><a href="client.html" id="homeIcon"><i class="fa fa-home"></i></a></li>
+    <!--hyperlink for services page-->
+    <li><a href="/clientServices/clientService.html">SERVICES</a></li>
     <li><a href="#orders">ORDERS</a>
         <ul class="sub-nav">
             <li><a href="H">History</a></li>
             <li><a href="C">Consult Bills</a></li>
-            <li><a href="PO">Pending Orders</a></li>
+            <li><a href="/PendingOrders/pendingOrders.html">Pending Orders</a></li>
         </ul>
     </li>
-    <li><a href="#request">REQUEST</a></li>
+    <!--click on request option in Navbar-->
+    <li><a href="/clientRequest/clientRequest.html">REQUEST</a></li>
   </ul>
 
-  <input type="text" placeholder="Search..">
-  <a href="#cart" id="C"><i class="fas fa-shopping-cart"></i></a>
+  <a href="/emptyCart/cart.html" id="Cart"><i class="fas fa-shopping-cart"></i></a>
   <section id="sign"> <nav> SIGN IN </nav></section>
-
-
-  
 
 </div>
 </nav>
@@ -54,7 +54,7 @@
 <section class="top">
     <h2>Welcome To Strivus!</h2>
     <p>Driven By A Passion For Excellence, At Strivus, We Strive To Offer The Highest Quality & Innovation In Everything We Do.</p>
-    <a href="#">Click here to begin!</a>
+    <a href="#">Click here to begin!</a> <!--THIS SHOULD SEND TO SIGN IN PAGE-->
 </section>
     
 <!--FEATURED SRRVICES SECTION-->
@@ -77,7 +77,8 @@
         <p>Quick and efficient repairs for your home or office.</p>
       </div>
     </div>
-     <a href="discover" id="discover">Learn more</a>
+    <!--THIS HYPERLINK LEADS TO SERVICES PAGE TO LEARN MORE-->
+     <a href="/clientServices/clientService.html" id="discover">Discover Now!</a> 
   </section>
     
   <!--HOW IT WORKS SECTION-->
